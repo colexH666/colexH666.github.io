@@ -103,10 +103,16 @@
 <meta property="og:site_name" content="Colex&#39;s Blog">
 <meta property="og:description" content="这个博客的搭建从开始到最后完成， 总共花了将近5天的时间。本来并不需要这么长，原因是途中出现了各种各样的问题。能找到一个好的教程相当于成功了一半。下面贴一些我在搭建过程中帮助比较大的教程，以及我遇到过的奇葩问题。 首先Hexo自己的文档肯定是必不可少的：Hexo官方文档 官方文档虽然内容齐全，但是难免描述得有些简单，这个时候有别人整理好的详细教程当然是最好了：Mac 系统下搭建hexo个人博客 H">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-02-25T11:08:12.210Z">
+<meta property="og:image" content="http://colexh.com/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/busuanzi.png">
+<meta property="og:image" content="http://colexh.com/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/set_url.png">
+<meta property="og:image" content="http://colexh.com/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/github_repositoryname">
+<meta property="og:image" content="http://colexh.com/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/github_site">
+<meta property="og:image" content="http://colexh.com/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/title">
+<meta property="og:updated_time" content="2019-02-25T11:41:49.698Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo+gitpage博客搭建过程中遇到的神奇问题">
 <meta name="twitter:description" content="这个博客的搭建从开始到最后完成， 总共花了将近5天的时间。本来并不需要这么长，原因是途中出现了各种各样的问题。能找到一个好的教程相当于成功了一半。下面贴一些我在搭建过程中帮助比较大的教程，以及我遇到过的奇葩问题。 首先Hexo自己的文档肯定是必不可少的：Hexo官方文档 官方文档虽然内容齐全，但是难免描述得有些简单，这个时候有别人整理好的详细教程当然是最好了：Mac 系统下搭建hexo个人博客 H">
+<meta name="twitter:image" content="http://colexh.com/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/busuanzi.png">
 
 
 
@@ -416,7 +422,7 @@
                 
               
 
-              <time title="Created: 2019-02-25 10:27:33 / Modified: 19:08:12" itemprop="dateCreated datePublished" datetime="2019-02-25T10:27:33+08:00">2019-02-25</time>
+              <time title="Created: 2019-02-25 10:27:33 / Modified: 19:41:49" itemprop="dateCreated datePublished" datetime="2019-02-25T10:27:33+08:00">2019-02-25</time>
             
 
             
@@ -484,10 +490,13 @@
 <p>首先Hexo自己的文档肯定是必不可少的：<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a></p>
 <p>官方文档虽然内容齐全，但是难免描述得有些简单，这个时候有别人整理好的详细教程当然是最好了：<a href="https://www.jianshu.com/p/77db3862595c" target="_blank" rel="noopener">Mac 系统下搭建hexo个人博客</a></p>
 <p>Hexo配置好以后就可以选一个自己喜欢的主题，我选择的是NexT：<a href="http://theme-next.iissnan.com" target="_blank" rel="noopener">NexT</a></p>
+<p>&lt; !–more–&gt;</p>
 <p>有关主题设置的教程：<a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener">Hexo的Next主题详细配置</a></p>
 <p>完成以上步骤以后，一个博客已经基本成形了。但是也很可能它看起来有点。。。有点问题？</p>
 <p>##问题1:访问量统计的设置</p>
-<p>到现在Next的最新版本为止，Next本身已经集成了许多第三方服务。比如我的访问量统计用的不蒜子，你需要做的，只是打开<strong>主题配置文件</strong>,找到<em>Third Party Services Settings</em>，再找到不蒜子：<br>图不蒜子<br>然后把<em>enable</em>改为<em>true</em>就可以了。<em>enable</em>控制整个不蒜子服务打开，但此时只是打开了统计服务，并不会显示，再选择下面你想要显示的内容改为<em>true</em>即可。</p>
+<p>到现在Next的最新版本为止，Next本身已经集成了许多第三方服务。比如我的访问量统计用的不蒜子，你需要做的，只是打开<strong>主题配置文件</strong>,找到<em>Third Party Services Settings</em>，再找到不蒜子：</p>
+<p><img src="/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/busuanzi.png"></p>
+<p>然后把<em>enable</em>改为<em>true</em>就可以了。<em>enable</em>控制整个不蒜子服务打开，但此时只是打开了统计服务，并不会显示，再选择下面你想要显示的内容改为<em>true</em>即可。</p>
 <blockquote>
 <p>total_visitors: 总访客量。1个人访问3次记1。<br>total_views: 总访问量。1个人访问3次记3。<br>post_views: 文章总访问量。<br>使用Next集成的不蒜子，不但方便，而且还帮你写好了显示的样式（如果数据前面的icon不喜欢，也可以在<a href="https://fontawesome.com/?from=io" target="_blank" rel="noopener">font awsome</a>中查找，然后把后面的icon名字更换即可。）</p>
 </blockquote>
@@ -500,7 +509,7 @@
 <p>百度一下就会发现，这个问题还挺常见的。按理说这么多人都有的问题应该很快找到解决办法。但是各位大神的解决办法不是说的太笼统就是说的太简单，反正像我这种处于鄙视链底层的无名小妖真的看不懂，但是css就是显示不出来，真实着急。</p>
 <p>这个问题大概解释起来就是，服务器找不到你的css文件。解决起来也很简单。打开<strong>hexo配置文件</strong>，修改<em>url</em>与<em>root</em>即可。</p>
 <p>其中<em>url</em>和<em>root</em>分别对应GitHub上显示的地址和仓库名。</p>
-<p>图1<br>图2<br>图3</p>
+<p><img src="/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/set_url.png"><br><img src="/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/github_repositoryname"><br><img src="/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/github_site"></p>
 <p>然后重新发布即可。</p>
 <p>##问题3:无法显示修改部分</p>
 <p>据说以前的hexo版本确实存在一定的延时问题，但是现在应该基本不存在了。</p>
@@ -520,7 +529,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docs: /categories/docs/ || book</span><br><span class="line">movies: /categories/movies/ || video</span><br></pre></td></tr></table></figure>
 <p>如果不希望多一个目录项只要把<em>categories</em>注释掉就可以了。</p>
 <p>发布新的文章时，只要在文章开头添加<em>categories</em>字段，并填写相应的分类，对于没有的分类会被自动新增，已有分类会自动归档。</p>
-<p>图</p>
+<p><img src="/2019/02/25/hexo-gitpage博客搭建过程中遇到的神奇问题/img_temp/title"></p>
 <p>以上，博客已经可以正常使用了。</p>
 
       
